@@ -8,6 +8,12 @@ gem 'rails', '3.2.15'
 gem 'pg'
 gem 'evernote_oauth'
 gem 'figaro'
+gem 'omniauth-evernote'
+gem 'thrift'
+gem 'thrift_client'
+gem 'nokogiri'
+gem 'omniauth'
+gem 'evernote'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -27,7 +33,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'pry'
   gem 'pry-rails'
-  gem 'dotenv-rails'
+  # gem 'dotenv-rails'
 end
 
 gem 'jquery-rails'
